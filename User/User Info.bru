@@ -6,12 +6,16 @@ meta {
 
 get {
   url: {{baseUrl}}/users/usebrun?key=value
-  body: none
+  body: text
   auth: none
 }
 
 params:query {
   key: value
+}
+
+body:text {
+  Hello
 }
 
 tests {
