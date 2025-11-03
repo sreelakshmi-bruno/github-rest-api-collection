@@ -5,8 +5,13 @@ meta {
 }
 
 get {
-  url: {{baseUrl}}/users/usebrun
+  url: {{baseUrl}}/users/usebrun?key=value
   body: none
+  auth: none
+}
+
+params:query {
+  key: value
 }
 
 tests {
